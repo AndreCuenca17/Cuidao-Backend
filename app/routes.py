@@ -29,7 +29,7 @@ def actualizar_datos_crimenes():
     global is_updating
     try:
         print("Actualizando datos de crímenes...")
-        mostrar_ultimos_reportes().save("app/templates/crimenes.html")
+        mostrar_ultimos_reportes().save("/tmp/crimenes.html")
         ubicacion_crimenes()
         crimenes_distritos()
         crimenes_calor()
@@ -83,15 +83,15 @@ def register_routes(app):
     def get_generar_mapas():
         try:
             # Generar el mapa vacío y guardarlo como HTML
-            crear_mapa_vacio().save("app/templates/mapa_vacio.html")  # mapa_vacio.html
+            crear_mapa_vacio().save("/tmp/mapa_vacio.html")  # mapa_vacio.html
             mostrar_ubicacion_actual().save(
-                "app/templates/ubicacion.html"
+                "/tmp/ubicacion.html"
             )  # ubicacion.html
             mostrar_comisarias().save(
-                "app/templates/comisarias.html"
+                "/tmp/comisarias.html"
             )  # comisarias.html
-            mostrar_mapa_de_calor().save("app/templates/calor.html")  # calor.html
-            delimitar_distritos().save("app/templates/distritos.html")  # distritos.html
+            mostrar_mapa_de_calor().save("/tmp/calor.html")  # calor.html
+            delimitar_distritos().save("/tmp/distritos.html")  # distritos.html
             ubicacion_comisarias()  # ubicacion_comisarias.html
             ubicacion_distritos()  # ubicacion_distritos.html
             ubicacion_calor()  # ubicacion_calor.html
@@ -107,7 +107,7 @@ def register_routes(app):
             mapa_modificado()  # reportar_crimen.html
 
             # Mapas que se volveran a generar en /map
-            # mostrar_ultimos_reportes().save("app/templates/crimenes.html")
+            # mostrar_ultimos_reportes().save("/tmp/crimenes.html")
            
 
             # ubicacion_crimenes()  # ubicacion_crimenes.html
