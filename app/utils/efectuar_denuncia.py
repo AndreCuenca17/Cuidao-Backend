@@ -66,7 +66,7 @@ def efectuar_denuncia(mapaCuidao=None):
     dibujar_ruta_hacia_comisaria_mas_cercana(
         mapaCuidao, G, location, comisarias, comisaria_mas_cercana
     )
-    mapaCuidao.save("app/templates/efectuar_denuncia.html")
+    mapaCuidao.save("/tmp/efectuar_denuncia.html")
     return mapaCuidao
 
 

@@ -50,7 +50,7 @@ def agregar_comisarias_al_mapa(mapa, lista_comisarias, icon_image="app/static/im
     print("Las comisarias fueron cargadas correctamente al mapa")
 
 # Función para crear un mapa con la data de los puntos peligrosos
-def crear_mapa_con_puntos(datos, mapa, archivo_salida="app/templates/crimenes.html"):
+def crear_mapa_con_puntos(datos, mapa, archivo_salida="/tmp/crimenes.html"):
 
     # Agregar puntos al mapa
     for dato in datos:

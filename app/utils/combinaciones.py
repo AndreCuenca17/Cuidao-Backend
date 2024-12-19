@@ -9,131 +9,131 @@ from .funcionalidades import *
 def ubicacion_crimenes():
     mapaCuidao = mostrar_ubicacion_actual()
     mapaCuidao = mostrar_ultimos_reportes(mapaCuidao)
-    mapaCuidao.save("app/templates/ubicacion_crimenes.html")
+    mapaCuidao.save("/tmp/ubicacion_crimenes.html")
     return mapaCuidao
 
 def ubicacion_comisarias():
     mapaCuidao = mostrar_ubicacion_actual()
     mapaCuidao = mostrar_comisarias(mapaCuidao)
-    mapaCuidao.save("app/templates/ubicacion_comisarias.html")
+    mapaCuidao.save("/tmp/ubicacion_comisarias.html")
     return mapaCuidao
 
 def ubicacion_distritos():
     mapaCuidao = mostrar_ubicacion_actual()
     mapaCuidao = delimitar_distritos(mapaCuidao)
-    mapaCuidao.save("app/templates/ubicacion_distritos.html")
+    mapaCuidao.save("/tmp/ubicacion_distritos.html")
     return mapaCuidao
 
 def ubicacion_calor():
     mapaCuidao = mostrar_ubicacion_actual()
     mapaCuidao = mostrar_mapa_de_calor(mapaCuidao)
-    mapaCuidao.save("app/templates/ubicacion_calor.html")
+    mapaCuidao.save("/tmp/ubicacion_calor.html")
     return mapaCuidao
 
 def crimenes_comisarias():
     mapaCuidao = mostrar_ultimos_reportes()
     mapaCuidao = mostrar_comisarias(mapaCuidao)
-    mapaCuidao.save("app/templates/crimenes_comisarias.html")
+    mapaCuidao.save("/tmp/crimenes_comisarias.html")
     return mapaCuidao
 
 def crimenes_distritos():
     mapaCuidao = mostrar_ultimos_reportes()
     mapaCuidao = delimitar_distritos(mapaCuidao)
-    mapaCuidao.save("app/templates/crimenes_distritos.html")
+    mapaCuidao.save("/tmp/crimenes_distritos.html")
     return mapaCuidao
 
 def crimenes_calor():
     mapaCuidao = mostrar_ultimos_reportes()
     mapaCuidao = mostrar_mapa_de_calor(mapaCuidao)
-    mapaCuidao.save("app/templates/crimenes_calor.html")
+    mapaCuidao.save("/tmp/crimenes_calor.html")
     return mapaCuidao
 
 def comisarias_distritos():
     mapaCuidao = mostrar_comisarias()
     mapaCuidao = delimitar_distritos(mapaCuidao)
-    mapaCuidao.save("app/templates/comisarias_distritos.html")
+    mapaCuidao.save("/tmp/comisarias_distritos.html")
     return mapaCuidao
 
 def comisarias_calor():
     mapaCuidao = mostrar_comisarias()
     mapaCuidao = mostrar_mapa_de_calor(mapaCuidao)
-    mapaCuidao.save("app/templates/comisarias_calor.html")
+    mapaCuidao.save("/tmp/comisarias_calor.html")
     return mapaCuidao
 
 def distritos_calor():
     mapaCuidao = delimitar_distritos()
     mapaCuidao = mostrar_mapa_de_calor(mapaCuidao)
-    mapaCuidao.save("app/templates/distritos_calor.html")
+    mapaCuidao.save("/tmp/distritos_calor.html")
     return mapaCuidao
 
 def ubicacion_crimenes_comisarias():
     mapaCuidao = mostrar_ubicacion_actual()
     mapaCuidao = mostrar_ultimos_reportes(mapaCuidao)
     mapaCuidao = mostrar_comisarias(mapaCuidao)
-    mapaCuidao.save("app/templates/ubicacion_crimenes_comisarias.html")
+    mapaCuidao.save("/tmp/ubicacion_crimenes_comisarias.html")
     return mapaCuidao
 
 def ubicacion_crimenes_distritos():
     mapaCuidao = mostrar_ubicacion_actual()
     mapaCuidao = mostrar_ultimos_reportes(mapaCuidao)
     mapaCuidao = delimitar_distritos(mapaCuidao)
-    mapaCuidao.save("app/templates/ubicacion_crimenes_distritos.html")
+    mapaCuidao.save("/tmp/ubicacion_crimenes_distritos.html")
     return mapaCuidao
 
 def ubicacion_crimenes_calor():
     mapaCuidao = mostrar_ubicacion_actual()
     mapaCuidao = mostrar_ultimos_reportes(mapaCuidao)
     mapaCuidao = mostrar_mapa_de_calor(mapaCuidao)
-    mapaCuidao.save("app/templates/ubicacion_crimenes_calor.html")
+    mapaCuidao.save("/tmp/ubicacion_crimenes_calor.html")
     return mapaCuidao
 
 def ubicacion_comisarias_distritos():
     mapaCuidao = mostrar_ubicacion_actual()
     mapaCuidao = mostrar_comisarias(mapaCuidao)
     mapaCuidao = delimitar_distritos(mapaCuidao)
-    mapaCuidao.save("app/templates/ubicacion_comisarias_distritos.html")
+    mapaCuidao.save("/tmp/ubicacion_comisarias_distritos.html")
     return mapaCuidao
 
 def ubicacion_comisarias_calor():
     mapaCuidao = mostrar_ubicacion_actual()
     mapaCuidao = mostrar_comisarias(mapaCuidao)
     mapaCuidao = mostrar_mapa_de_calor(mapaCuidao)
-    mapaCuidao.save("app/templates/ubicacion_comisarias_calor.html")
+    mapaCuidao.save("/tmp/ubicacion_comisarias_calor.html")
     return mapaCuidao
 
 def ubicacion_distritos_calor():
     mapaCuidao = mostrar_ubicacion_actual()
     mapaCuidao = delimitar_distritos(mapaCuidao)
     mapaCuidao = mostrar_mapa_de_calor(mapaCuidao)
-    mapaCuidao.save("app/templates/ubicacion_distritos_calor.html")
+    mapaCuidao.save("/tmp/ubicacion_distritos_calor.html")
     return mapaCuidao
 
 def crimenes_comisarias_distritos():
     mapaCuidao = mostrar_ultimos_reportes()
     mapaCuidao = mostrar_comisarias(mapaCuidao)
     mapaCuidao = delimitar_distritos(mapaCuidao)
-    mapaCuidao.save("app/templates/crimenes_comisarias_distritos.html")
+    mapaCuidao.save("/tmp/crimenes_comisarias_distritos.html")
     return mapaCuidao
 
 def crimenes_comisarias_calor():
     mapaCuidao = mostrar_ultimos_reportes()
     mapaCuidao = mostrar_comisarias(mapaCuidao)
     mapaCuidao = mostrar_mapa_de_calor(mapaCuidao)
-    mapaCuidao.save("app/templates/crimenes_comisarias_calor.html")
+    mapaCuidao.save("/tmp/crimenes_comisarias_calor.html")
     return mapaCuidao
 
 def crimenes_distritos_calor():
     mapaCuidao = mostrar_ultimos_reportes()
     mapaCuidao = delimitar_distritos(mapaCuidao)
     mapaCuidao = mostrar_mapa_de_calor(mapaCuidao)
-    mapaCuidao.save("app/templates/crimenes_distritos_calor.html")
+    mapaCuidao.save("/tmp/crimenes_distritos_calor.html")
     return mapaCuidao
 
 def comisarias_distritos_calor():
     mapaCuidao = mostrar_comisarias()
     mapaCuidao = delimitar_distritos(mapaCuidao)
     mapaCuidao = mostrar_mapa_de_calor(mapaCuidao)
-    mapaCuidao.save("app/templates/comisarias_distritos_calor.html")
+    mapaCuidao.save("/tmp/comisarias_distritos_calor.html")
     return mapaCuidao
 
 def ubicacion_crimenes_comisarias_distritos():
@@ -141,7 +141,7 @@ def ubicacion_crimenes_comisarias_distritos():
     mapaCuidao = mostrar_ultimos_reportes(mapaCuidao)
     mapaCuidao = mostrar_comisarias(mapaCuidao)
     mapaCuidao = delimitar_distritos(mapaCuidao)
-    mapaCuidao.save("app/templates/ubicacion_crimenes_comisarias_distritos.html")
+    mapaCuidao.save("/tmp/ubicacion_crimenes_comisarias_distritos.html")
     return mapaCuidao
 
 def ubicacion_crimenes_comisarias_calor():
@@ -149,7 +149,7 @@ def ubicacion_crimenes_comisarias_calor():
     mapaCuidao = mostrar_ultimos_reportes(mapaCuidao)
     mapaCuidao = mostrar_comisarias(mapaCuidao)
     mapaCuidao = mostrar_mapa_de_calor(mapaCuidao)
-    mapaCuidao.save("app/templates/ubicacion_crimenes_comisarias_calor.html")
+    mapaCuidao.save("/tmp/ubicacion_crimenes_comisarias_calor.html")
     return mapaCuidao
 
 def ubicacion_crimenes_distritos_calor():
@@ -157,7 +157,7 @@ def ubicacion_crimenes_distritos_calor():
     mapaCuidao = mostrar_ultimos_reportes(mapaCuidao)
     mapaCuidao = delimitar_distritos(mapaCuidao)
     mapaCuidao = mostrar_mapa_de_calor(mapaCuidao)
-    mapaCuidao.save("app/templates/ubicacion_crimenes_distritos_calor.html")
+    mapaCuidao.save("/tmp/ubicacion_crimenes_distritos_calor.html")
     return mapaCuidao
 
 def ubicacion_comisarias_distritos_calor():
@@ -165,7 +165,7 @@ def ubicacion_comisarias_distritos_calor():
     mapaCuidao = mostrar_comisarias(mapaCuidao)
     mapaCuidao = delimitar_distritos(mapaCuidao)
     mapaCuidao = mostrar_mapa_de_calor(mapaCuidao)
-    mapaCuidao.save("app/templates/ubicacion_comisarias_distritos_calor.html")
+    mapaCuidao.save("/tmp/ubicacion_comisarias_distritos_calor.html")
     return mapaCuidao
 
 def crimenes_comisarias_distritos_calor():
@@ -173,7 +173,7 @@ def crimenes_comisarias_distritos_calor():
     mapaCuidao = mostrar_comisarias(mapaCuidao)
     mapaCuidao = delimitar_distritos(mapaCuidao)
     mapaCuidao = mostrar_mapa_de_calor(mapaCuidao)
-    mapaCuidao.save("app/templates/crimenes_comisarias_distritos_calor.html")
+    mapaCuidao.save("/tmp/crimenes_comisarias_distritos_calor.html")
     return mapaCuidao
 
 def ubicacion_crimenes_comisarias_distritos_calor():
@@ -182,6 +182,6 @@ def ubicacion_crimenes_comisarias_distritos_calor():
     mapaCuidao = mostrar_comisarias(mapaCuidao)
     mapaCuidao = delimitar_distritos(mapaCuidao)
     mapaCuidao = mostrar_mapa_de_calor(mapaCuidao)
-    mapaCuidao.save("app/templates/ubicacion_crimenes_comisarias_distritos_calor.html")
+    mapaCuidao.save("/tmp/ubicacion_crimenes_comisarias_distritos_calor.html")
     return mapaCuidao
 

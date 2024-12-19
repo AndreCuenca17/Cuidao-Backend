@@ -72,7 +72,7 @@ def mapa_modificado():
     m.get_root().html.add_child(folium.Element(script))
 
     # Guardar el mapa como archivo HTML
-    m.save("app/templates/reportar_crimen.html")
+    m.save("/tmp/reportar_crimen.html")
 
 # def devolver_distrito():
 #     global ubicacion_seleccionada
