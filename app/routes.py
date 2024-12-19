@@ -300,7 +300,7 @@ def register_routes(app):
 
         # Aquí puedes procesar las coordenadas, guardarlas en la base de datos, etc.
         print(
-            f"Coordenadas recibidas: Latitud: {ubicacion_seleccionada["latitud"]}, Longitud: {ubicacion_seleccionada["longitud"]}"
+            f"Coordenadas recibidas: Latitud: {ubicacion_seleccionada['latitud']}, Longitud: {ubicacion_seleccionada['longitud']}"
         )
 
         # Respuesta de éxito
