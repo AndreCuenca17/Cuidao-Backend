@@ -84,9 +84,9 @@ def register_routes(app):
         try:
             # Generar el mapa vacío y guardarlo como HTML
             crear_mapa_vacio().save("/tmp/mapa_vacio.html")  # mapa_vacio.html
-            mostrar_ubicacion_actual().save(
-                "/tmp/ubicacion.html"
-            )  # ubicacion.html
+            # mostrar_ubicacion_actual().save(
+            #     "/tmp/ubicacion.html"
+            # )  # ubicacion.html
             mostrar_comisarias().save(
                 "/tmp/comisarias.html"
             )  # comisarias.html
