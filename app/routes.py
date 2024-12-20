@@ -90,8 +90,8 @@ def register_routes(app):
             mostrar_comisarias().save(
                 "/tmp/comisarias.html"
             )  # comisarias.html
-            mostrar_mapa_de_calor().save("/tmp/calor.html")  # calor.html
-            delimitar_distritos().save("/tmp/distritos.html")  # distritos.html
+            # mostrar_mapa_de_calor().save("/tmp/calor.html")  # calor.html
+            # delimitar_distritos().save("/tmp/distritos.html")  # distritos.html
             # ubicacion_comisarias()  # ubicacion_comisarias.html
             # ubicacion_distritos()  # ubicacion_distritos.html
             # ubicacion_calor()  # ubicacion_calor.html
