@@ -30,22 +30,22 @@ def actualizar_datos_crimenes():
     try:
         print("Actualizando datos de crímenes...")
         mostrar_ultimos_reportes().save("/tmp/crimenes.html")
-        ubicacion_crimenes()
-        crimenes_distritos()
-        crimenes_calor()
-        ubicacion_crimenes_distritos()
-        ubicacion_crimenes_calor()
-        crimenes_distritos_calor()
-        ubicacion_crimenes_distritos_calor()
-        crimenes_comisarias()
-        ubicacion_crimenes_comisarias()
-        crimenes_comisarias_distritos()
-        crimenes_comisarias_calor()
-        ubicacion_crimenes_comisarias_distritos()
-        ubicacion_crimenes_comisarias_calor()
-        crimenes_comisarias_distritos_calor()
-        ubicacion_crimenes_comisarias_distritos_calor()
-        efectuar_denuncia()
+        # ubicacion_crimenes()
+        # crimenes_distritos()
+        # crimenes_calor()
+        # ubicacion_crimenes_distritos()
+        # ubicacion_crimenes_calor()
+        # crimenes_distritos_calor()
+        # ubicacion_crimenes_distritos_calor()
+        # crimenes_comisarias()
+        # ubicacion_crimenes_comisarias()
+        # crimenes_comisarias_distritos()
+        # crimenes_comisarias_calor()
+        # ubicacion_crimenes_comisarias_distritos()
+        # ubicacion_crimenes_comisarias_calor()
+        # crimenes_comisarias_distritos_calor()
+        # ubicacion_crimenes_comisarias_distritos_calor()
+        # efectuar_denuncia()
         print("Crímenes actualizados correctamente")
     except Exception as e:
         print(f"Error al actualizar datos: {e}")
@@ -92,19 +92,19 @@ def register_routes(app):
             )  # comisarias.html
             mostrar_mapa_de_calor().save("/tmp/calor.html")  # calor.html
             delimitar_distritos().save("/tmp/distritos.html")  # distritos.html
-            ubicacion_comisarias()  # ubicacion_comisarias.html
-            ubicacion_distritos()  # ubicacion_distritos.html
-            ubicacion_calor()  # ubicacion_calor.html
-            comisarias_distritos()  # comisarias_distritos.html
-            comisarias_calor()  # comisarias_calor.html
-            distritos_calor()  # distritos_calor.html
-            ubicacion_comisarias_distritos()  # ubicacion_comisarias_distritos.html
-            ubicacion_comisarias_calor()  # ubicacion_comisarias_calor.html
-            ubicacion_distritos_calor()  # ubicacion_distritos_calor.html
-            comisarias_distritos_calor()  # comisarias_distritos_calor.html
-            ubicacion_comisarias_distritos_calor()  # ubicacion_comisarias_distritos_calor.html
-            efectuar_denuncia()  # efectuar_denuncia.html
-            mapa_modificado()  # reportar_crimen.html
+            # ubicacion_comisarias()  # ubicacion_comisarias.html
+            # ubicacion_distritos()  # ubicacion_distritos.html
+            # ubicacion_calor()  # ubicacion_calor.html
+            # comisarias_distritos()  # comisarias_distritos.html
+            # comisarias_calor()  # comisarias_calor.html
+            # distritos_calor()  # distritos_calor.html
+            # ubicacion_comisarias_distritos()  # ubicacion_comisarias_distritos.html
+            # ubicacion_comisarias_calor()  # ubicacion_comisarias_calor.html
+            # ubicacion_distritos_calor()  # ubicacion_distritos_calor.html
+            # comisarias_distritos_calor()  # comisarias_distritos_calor.html
+            # ubicacion_comisarias_distritos_calor()  # ubicacion_comisarias_distritos_calor.html
+            # efectuar_denuncia()  # efectuar_denuncia.html
+            # mapa_modificado()  # reportar_crimen.html
 
             # Mapas que se volveran a generar en /map
             # mostrar_ultimos_reportes().save("/tmp/crimenes.html")
